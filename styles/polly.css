@@ -5,6 +5,10 @@
 html {
     background-color: #3fa3e7;
 }
+
+body {
+    margin: 0;
+}
         
         .full-screen {
             background-color: #3fa3e7;

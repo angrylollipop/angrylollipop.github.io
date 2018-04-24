@@ -1,0 +1,64 @@
+html {
+    font-family: georgia, serif;
+    font-size: 16px;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #000;
+
+}
+
+.img-responsive {
+    width: auto;
+    height: 100vh;
+}
+
+.img-2 {
+    position: fixed;
+    left: 0%;
+    top: 15%;
+    z-index: 1;
+    width: 30vw;
+}
+
+.text-box {
+    position: absolute;
+    max-width: 50%;
+    top: 8%;
+    left: 10%;
+    z-index: 2;
+}
+
+.img-bkg {
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    overflow: hidden;
+
+}
+
+.full-content p {
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.4;
+    margin: 2px 0;
+}
+
+.full-content p::first-line {
+    font-weight: 600;
+        
+}
+
+.text-box mark {
+    background-color:#fff;
+}
+
+.caption {
+    color: #fff;
+    position: fixed;
+    left: 2%;
+    top: 55%;
+    z-index: 2;
+}
