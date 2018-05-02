@@ -1,0 +1,213 @@
+html {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #222;
+    margin: .2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+h4 {
+    color: #222;
+    margin: .5em;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+/* fixed zindex top bar bkg */
+nav {
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    z-index: 900;
+    width: 100%;
+    margin: 0;
+    height: 40px;
+    box-shadow: 0px 3px 6px rgba(0,0,0, 0.16);
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+/* Navigation item container */
+.nav-wrap {
+    max-width: 736px;
+    margin: auto;
+    position: relative;
+}
+
+/*logo on nav */
+.brand{
+    background:url(../images/zilla.png) no-repeat;
+    background-size: 40px 40px;
+    height: 40px;
+    width: 50px;
+    display: inline-block;
+}
+
+/* Main link back home */
+.help-nav {
+    position: absolute;
+    top: 8px;
+    font-size: 1.2em;
+    color: white;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+}
+
+/* right nav link */
+.tomain {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: .8em;
+}
+
+.tomain a:visited {
+    color: #ffcc00;
+}
+
+.tomain a:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.tomain a:active {
+    color: #cc0033;
+    border-bottom: 0px;
+}
+  
+
+/* Header Bkg */
+header {
+    padding: 75px 0 75px 0;
+    margin: 0;
+    background-color: #ffcc00;
+    background-image: radial-gradient(farthest-corner at 50% 1px,#ffd801 0%, #f2b816 100%);
+    text-align: center;
+}
+
+/* Search Wrapper */
+.search-wrapper {
+    max-width: 736px;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 0px 1px 4px rgba(12, 12, 13, 0.2);
+    border-radius: 3px;
+}
+
+#search-form {
+    padding-left: 15px;
+    width: 100%;
+    height: 36px;
+    border: 0;
+}
+
+.search-wrapper button {
+    border: 0;
+    height: 26px;
+}
+
+.btn1 {
+    font-size: 1em;
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    cursor: pointer;
+    background-color: #ffcc00;
+    color: #373737;
+    border-radius: 3px;
+}
+
+.btn1:hover {
+    background-color: #ffee00;
+    color: #373737;
+}
+
+.btn2 {
+    font-size: 1em;
+    background-color: transparent;
+    color: #666;
+    position: absolute;
+    top: 5px;
+    right: 45px;
+    cursor: pointer;
+}
+
+/* Main content */
+
+main {
+    text-align: center;
+    max-width: 736px;
+    margin: 25px auto 40px auto;
+    box-sizing: border-box;
+}
+
+
+
+.yellow-line {
+    height: 2px;
+    width: 100px;
+    background-color: #ffcc00;
+    display: block;
+    margin: 20px auto;
+}
+
+.cats {
+    display: flex;
+    flex-wrap: wrap
+}
+
+
+.cats div {
+    margin: 0 10px 10px 10px;
+    text-align: center;
+    flex: 1 200px;
+    
+}
+
+.cats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cat1 {
+    
+}
+
+.cat2 {
+
+}
+
+.cat3 {
+
+}
