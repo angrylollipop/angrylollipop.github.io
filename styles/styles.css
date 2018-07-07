@@ -1,0 +1,20 @@
+/*
+Google Fonts
+font-family: 'Rubik', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Cabin', sans-serif;
+font-family: 'VT323', monospace;
+font-family: 'Nunito', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+*/
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive !important;
+    text-align: center;
+}
