@@ -14,7 +14,7 @@ body {
     margin: 0;
 }
 
-h1 {
-    font-family: 'Pacifico', cursive !important;
+.pacific {
+    font-family: 'Pacifico', cursive;
     text-align: center;
 }
