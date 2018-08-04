@@ -11,10 +11,10 @@ font-family: 'Nunito Sans', sans-serif;
 */
 
 body {
-    margin: 0;
+    padding-top: 5rem;
 }
 
-.pacific {
-    font-family: 'Pacifico', cursive;
+.starter-template {
+    padding: 3rem 1.5rem;
     text-align: center;
 }
