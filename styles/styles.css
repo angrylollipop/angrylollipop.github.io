@@ -11,18 +11,5 @@ font-family: 'Nunito Sans', sans-serif;
 */
 
 body {
-    padding-top: 5rem;
-}
-
-.starter-template {
-    padding: 3rem 1.5rem;
-    text-align: center;
-}
-
-
-/*NAVBAR WHITE CLASS*/
-
-.solid {
-    background-color: #fff;
-    transition: background-color .5s ease 0s;
+    padding-top: 0rem;
 }
