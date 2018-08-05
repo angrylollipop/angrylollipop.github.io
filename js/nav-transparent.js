@@ -9,3 +9,10 @@ $(document).ready(function () {
         }
     });
 });
+
+
+// THE CSS USED FOR THIS ON NAVBAR CLASS
+//.solid {
+//    background-color: #######;
+//    transition: background-color .5s ease 0s;
+//}
