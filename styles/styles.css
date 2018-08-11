@@ -91,8 +91,8 @@ a:hover {
 
 .product-card {
     border: 1px solid #cfd8dc;
-    padding: .6em;
-    margin-bottom: .8em;
+    padding: 10px;
+    margin-bottom: 24px;
     border-radius: 4px;
 }
 
